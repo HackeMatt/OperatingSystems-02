@@ -1,0 +1,6 @@
+#!/bin/bash
+read -p "Enter new comment:  " comment
+cd ~/Projects/OperatingSystems-02/
+git add .
+git commit -m "$comment"
+git push -u origin master
